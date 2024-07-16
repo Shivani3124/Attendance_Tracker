@@ -1,0 +1,16 @@
+..................password for admins.....................
+
+WHEN YOU REACHED AT THE HOME PAGE AFTER registration/login THEN you reached at Authentication page THAT YOU NEED THESE PASSWORDS
+
+1. for class of MCA
+username - "adminMCA"
+password - "admin123M"
+
+2. for class of BCA
+username - "adminBCA"
+password - "admin123B"
+
+3. for class of BSc CS
+username - "adminBSC"
+password - "admin123BSC"
+

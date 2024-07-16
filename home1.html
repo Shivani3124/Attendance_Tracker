@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+         nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #161515;
+}
+
+/* Change the background color of the dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #e9dcdc;
+    color: #3498db;
+    text-shadow: 3px 4px 6px #3498db;
+}
+
+
+nav ul li .b{
+    font-size:21px;
+    color: rgb(32, 30, 30);
+    text-shadow: 3px 4px 5px rgb(136, 126, 126);
+    font-weight: bold;
+    
+}
+.b:hover{
+    color: #3498db;
+    text-shadow: 3px 4px 6px #3498db;
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+  
+ background-image: url('pro14.avif');
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+}
+.text {
+  position: relative;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+text-shadow: 2px 3px 7px rgb(58, 58, 55);
+}
+.animation-typewriter {
+  animation: typewriter 4s steps(64) 1s 1 normal both,
+    blinkTextCursor 500ms steps(64) infinite normal;
+    cursor: pointer;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 525px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+p{
+  color:#2b37d1;
+  font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class="b" href="index.html"><i class="fa fa-home" style="font-size:24px"></i>&nbsp;Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="b"><i class="fa fa-calendar" style="font-size:21px"></i>&nbsp;fill attendance</a>
+                <div class="dropdown-content">
+                    <a href="newform(mca).php">MCA</a>
+                    <a href="newform(bca).php">BCA</a>
+                    <a href="newform(bsc).php">BSc CS</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="b"><i class="	fa fa-clipboard" style="font-size:21px"></i>&nbsp;View Attendance</a>
+                <div class="dropdown-content">
+                    <a href="attensheet(MCA).php">MCA</a>
+                    <a href="attensheet(BCA).php">BCA</a>
+                    <a href="attensheet(Bsc).php">BSc CS</a>
+                </div>
+            </li>
+            <li><a href="#" class="b"><i class="fa fa-briefcase" style="font-size:24px"></i>&nbsp;Portfolio</a></li>
+            <li><a href="#" class="b"><i class="fa fa-phone" style="font-size:24px"></i>&nbsp;Contact</a></li>
+        </ul>
+    </nav>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <p class="text animation-typewriter">
+     Welcome To Your Attendance Analyzer<sub>............................</sub>
+      </p>
+    
+</body>
+</html>
